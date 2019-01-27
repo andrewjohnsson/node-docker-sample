@@ -1,0 +1,17 @@
+{
+  "name": "node-docker-sample",
+  "version": "1.0.0",
+  "description": "Simple showcase for dockerizing the node app",
+  "main": "src/index.js",
+  "repository": "https://github.com/andrewjohnsson/node-docker-sample",
+  "author": "Andrey Ivanov",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "mongodb": "^3.1.13",
+    "nconf": "^0.10.0"
+  }
+}
